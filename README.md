@@ -1,4 +1,4 @@
-# TDC-CMOS-Designs
+# Time-to-Digital Converter (TDC) CMOS Designs
 This repository contains CMOS designs and performance outputs of several **time-to-digital converter (TDC)** architectures such as **Counter, Flash, Vernier delay line (VDL), Gated Ring oscillator (GRO), hybrid, and Vernier gated ring oscillator (VGRO)**.
 
 The realted scientific article is currently under evaluation. A detailed description of the TDC designs will be added soon.
@@ -27,7 +27,7 @@ Also, if you need it, the [common-digital-gates-master](common-digital-gates-mas
 
 Moreover, files containing all simulation parameters such as all simulation coding, MOSFET sizes, properties, temperature definitions, input-output definitions, technology file definitions, etc. are also presented in this file: [TDC_Designs_MAO](TDC_Designs_MAO). 
 
-T-Spice codes can be accessed from the **"#.sp"** file of the design to be executed and the simulation can be started. (Ex.: "vernier_ring_TDC.sp").
+T-Spice codes can be accessed from the **"#.sp"** file of the design to be executed and the simulation can be started. (Ex.: "[vernier_ring_TDC.sp](TDC_Designs_MAO/vernier_ring_TDC.sp)").
 Please note that:
 Technology scaling file definitions in "#.sp" files should be edited. E.g:
 ```C

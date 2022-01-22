@@ -1,0 +1,62 @@
+T-Spice - Tanner SPICE
+Version 13.00
+Standalone hardware lock
+Product Release ID: T-Spice Win32 13.00.20080321.01:01:33
+Copyright © 1993-2008 Tanner EDA
+
+	Opening output file "C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\3_Input_NAND_Gate\3_Input_NAND_Gate.out"
+	Parsing "C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\3_Input_NAND_Gate\3_Input_NAND_Gate.sp"
+	Reading library file "C:\Documents and Settings\Dhiraj\My Documents\Tanner EDA\Tanner Tools v13.0\Tanner_Libraries\Generic_025_Kit\Generic_025_SPICE_Models_Level1.lib"
+Loaded MOSLevel1 model library, SPICE Level 1 MOSFET revision 1.0
+Warning : Node N_1 is attached to only one device (MNMOS_1)
+Warning : Node N_3 is attached to only one device (MNMOS_2)
+Warning : Node N_5 is attached to only one device (MNMOS_3)
+
+Accuracy and Convergence options:
+numndset|dchold = 100
+
+Timestep and Integration options:
+ relq|relchgtol = 0.0005
+
+Model Evaluation options:
+           dcap = 2                    defnrb = 0 [sq]               defnrd = 0 [sq]
+         defnrs = 0 [sq]                 tnom = 25 [deg C]
+
+General options:
+           temp = 25 [deg C]          threads = 2
+
+Output options:
+          acout = 1                    ingold = 0
+
+
+
+ Device and node counts:
+            MOSFETs - 3                 MOSFET geometries - 1       
+               BJTs - 0                             JFETs - 0       
+            MESFETs - 0                            Diodes - 0       
+         Capacitors - 0                         Resistors - 1       
+          Inductors - 0                  Mutual inductors - 0       
+ Transmission lines - 0        Coupled transmission lines - 0       
+    Voltage sources - 4                   Current sources - 0       
+               VCVS - 0                              VCCS - 0       
+               CCVS - 0                              CCCS - 0       
+   V-control switch - 0                  I-control switch - 0       
+      Macro devices - 0        External C model instances - 0       
+        HDL devices - 0       
+        Subcircuits - 0              Subcircuit instances - 0       
+  Independent nodes - 6                    Boundary nodes - 5       
+        Total nodes - 11      
+
+*** 3 WARNING MESSAGES GENERATED DURING SETUP
+
+
+
+Parsing                      0.00 seconds
+Setup                        0.01 seconds
+DC operating point           0.00 seconds
+Transient Analysis           0.05 seconds
+Overhead                     1.78 seconds
+-----------------------------------------
+Total                        1.84 seconds
+
+Simulation completed	with  3 Warnings

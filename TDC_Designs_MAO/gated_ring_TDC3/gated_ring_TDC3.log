@@ -1,0 +1,45 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\gated_ring_TDC3.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\130nm.md"
+
+Start of gated_ring_TDC3.sp
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : "..\..\..\..\..\Desktop\130tech\130nm.md" line 1 Model NMOS - Unknown model parameter "OPTACM" will be ignored
+Warning : "gated_ring_TDC3.sp" line 31 Device Xencoder8x3_1.XINV_1.MN1 - Acde = 0.3 is too small.
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     377
+    MOSFET geometries -       3
+      Voltage sources -       3
+   Subckt Definitions -       6
+     Subckt Instances -      84
+     Unique Instances -       7
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -     959
+       Boundary nodes -       4
+          Total nodes -     963
+*** 2 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\gated_ring_TDC3.tsim"
+
+Parsing                      0.02 seconds
+Setup                        0.08 seconds
+DC operating point           0.05 seconds
+Transient Analysis          15.02 seconds
+Output                       0.06 seconds
+Overhead                     0.89 seconds
+-----------------------------------------
+Total                       16.12 seconds
+
+Simulation completed	with  2 Warnings

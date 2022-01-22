@@ -1,0 +1,41 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\new_INV.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\130nm.md"
+
+Start of new_INV.sp
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : "..\..\..\..\..\Desktop\130tech\130nm.md" line 1 Model NMOS - Unknown model parameter "OPTACM" will be ignored
+Warning : "new_INV.sp" line 21 Device MN1 - Acde = 0.3 is too small.
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       2
+    MOSFET geometries -       2
+      Voltage sources -       2
+   Subckt Definitions -       1
+     Subckt Instances -       0
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -       5
+       Boundary nodes -       3
+          Total nodes -       8
+*** 2 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\new_INV.tsim"
+
+Setup                        0.04 seconds
+Transient Analysis           0.28 seconds
+Overhead                     0.89 seconds
+-----------------------------------------
+Total                        1.22 seconds
+
+Simulation completed	with  2 Warnings

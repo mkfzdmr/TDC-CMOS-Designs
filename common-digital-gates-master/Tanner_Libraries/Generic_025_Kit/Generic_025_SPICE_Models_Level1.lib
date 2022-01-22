@@ -1,0 +1,34 @@
+*****************************************************************************
+*  Generic 0.25um Process
+*****************************************************************************
+
+.MODEL NMOS NMOS ( LEVEL = 1
+* Electrical Properties
++KP     = 178e-6		
++VTO    = 0.3703728
++GAMMA  = 0.029
++PHI    = 0.279
++LAMBDA = 0.05     
+* Physical Parameters, these are overriden by the electrical parameters but are included for refernce
++UO      = 284.0529492		
++TOX     = 5.6E-9
++NSUB    = 1e15
+*+LD      = 0.0025e-6  * Not going to use this for now, it effects KP & COX & results in ~2-3% difference in IDS
+)
+
+.MODEL PMOS PMOS ( LEVEL = 1
+* Electrical Properties
++KP     = 62.7e-6		
++VTO    = -0.4935548
++GAMMA  = 0.029
++PHI    = 0.279
++LAMBDA = 0.05     
+* Physical Parameters, these are overriden by the electrical parameters but are included for refernce
++UO      = 100
++TOX     = 5.6E-9
++NSUB    = 1e15
+*+LD      = 0.0025e-6  * Not going to use this for now, it effects KP & COX & results in ~2-3% difference in IDS
+)
+
+.END
+

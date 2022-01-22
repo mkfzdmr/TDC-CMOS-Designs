@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design MUX_4x1 -cell MUX_4x1 -type schematic -newwindow
+window move -left 0 -top 0 -width 520 -height 306 -undock -max 
+window fit -x0 -5339 -y0 -4541 -x1 5601 -y1 2477 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

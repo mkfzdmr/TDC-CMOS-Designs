@@ -1,0 +1,45 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_ring_TDC.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\130nm.md"
+
+Start of vernier_ring_TDC.sp
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : "..\..\..\..\..\Desktop\130tech\130nm.md" line 1 Model NMOS - Unknown model parameter "OPTACM" will be ignored
+Warning : "vernier_ring_TDC.sp" line 31 Device Xencoder8x3_1.XINV_1.MN1 - Acde = 0.3 is too small.
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     345
+    MOSFET geometries -       3
+      Voltage sources -       3
+   Subckt Definitions -       5
+     Subckt Instances -      85
+     Unique Instances -       7
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -     858
+       Boundary nodes -       4
+          Total nodes -     862
+*** 2 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_ring_TDC.tsim"
+
+Parsing                      0.07 seconds
+Setup                        0.15 seconds
+DC operating point           0.17 seconds
+Transient Analysis           3.86 seconds
+Output                       0.02 seconds
+Overhead                     0.16 seconds
+-----------------------------------------
+Total                        4.43 seconds
+
+Simulation completed	with  2 Warnings

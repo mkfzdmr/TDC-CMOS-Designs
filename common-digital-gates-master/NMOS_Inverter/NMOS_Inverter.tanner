@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design NMOS_Inverter -cell NMOS_Inverter -type schematic -newwindow
+window move -left 110 -top 145 -width 677 -height 435 -undock -max 
+window fit -x0 -1035 -y0 -710 -x1 3559 -y1 2686 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

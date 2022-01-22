@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design TDC_Designs_MAO -cell buff_TDC -type schematic -newwindow
+window move -left 156 -top 156 -width 1014 -height 529 -undock -max 
+window fit -x0 -4316 -y0 -6845 -x1 17923 -y1 4640 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8

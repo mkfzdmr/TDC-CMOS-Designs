@@ -1,0 +1,16 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\counter_TDC.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+Fatal Error : "counter_TDC.sp" line 57 .include file "C:\Users\makif\Google Drive\TEZ Ã‡ALIÅžMAM\Ã§izim\Ä°leri VLSI\VLSI_tech_files\130nm.md" not found!
+
+Parsing                      0.06 seconds
+Overhead                     0.74 seconds
+-----------------------------------------
+Total                        0.82 seconds
+
+Simulation failed	with  1 Fatal Error

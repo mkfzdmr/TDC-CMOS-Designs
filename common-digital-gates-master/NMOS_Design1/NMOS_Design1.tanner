@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design NMOS_Design1 -cell NMOS_Design -type schematic -newwindow
+window move -left 132 -top 174 -width 677 -height 435 -undock -max 
+window fit -x0 -1449 -y0 -3006 -x1 4670 -y1 1519 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

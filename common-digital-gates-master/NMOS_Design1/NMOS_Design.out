@@ -1,0 +1,111 @@
+* T-Spice 13.00 Simulation	Mon Apr 23 16:39:27 2012	C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\NMOS_Design1\NMOS_Design.sp
+* Command line: tspice -o "C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\NMOS_Design1\NMOS_Design.out" "C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\NMOS_Design1\NMOS_Design.sp" 
+* T-Spice Win32 13.00.20080321.01:01:33
+
+*SEDIT: Alter blocks = 0
+
+* Accuracy and Convergence options:
+* numndset|dchold = 100
+* 
+* Timestep and Integration options:
+*  relq|relchgtol = 0.0005
+* 
+* Model Evaluation options:
+*            dcap = 2                    defnrb = 0 [sq]               defnrd = 0 [sq]
+*          defnrs = 0 [sq]                 tnom = 25 [deg C]
+* 
+* General options:
+*            temp = 25 [deg C]          threads = 2
+* 
+* Output options:
+*           acout = 1                    ingold = 0
+* 
+
+
+*  Device and node counts:
+*             MOSFETs - 1                 MOSFET geometries - 2       
+*                BJTs - 0                             JFETs - 0       
+*             MESFETs - 0                            Diodes - 0       
+*          Capacitors - 0                         Resistors - 1       
+*           Inductors - 0                  Mutual inductors - 0       
+*  Transmission lines - 0        Coupled transmission lines - 0       
+*     Voltage sources - 2                   Current sources - 0       
+*                VCVS - 0                              VCCS - 0       
+*                CCVS - 0                              CCCS - 0       
+*    V-control switch - 0                  I-control switch - 0       
+*       Macro devices - 0        External C model instances - 0       
+*         HDL devices - 0       
+*         Subcircuits - 0              Subcircuit instances - 0       
+*   Independent nodes - 1                    Boundary nodes - 3       
+*         Total nodes - 4       
+
+
+*SEDIT: Alter=0
+*SEDIT: Analysis types DCOP 0 ACMODEL 0 AC 0 TRANSIENT 0 TRANSFER 1 NOISE 0 
+
+*WEDIT: XFER cycles V1  51
+*WEDIT: .dc V1        0        5      0.1
+TRANSFER ANALYSIS
+        V1<V>  id(MNMOS_1)<A>
+ 0.0000e+000  0.0000e+000
+ 1.0000e-001  6.9543e-005
+ 2.0000e-001  1.3414e-004
+ 3.0000e-001  1.9311e-004
+ 4.0000e-001  2.4563e-004
+ 5.0000e-001  2.9061e-004
+ 6.0000e-001  3.2667e-004
+ 7.0000e-001  3.5189e-004
+ 8.0000e-001  3.6361e-004
+ 9.0000e-001  3.6548e-004
+ 1.0000e+000  3.6723e-004
+ 1.1000e+000  3.6897e-004
+ 1.2000e+000  3.7072e-004
+ 1.3000e+000  3.7247e-004
+ 1.4000e+000  3.7422e-004
+ 1.5000e+000  3.7597e-004
+ 1.6000e+000  3.7772e-004
+ 1.7000e+000  3.7947e-004
+ 1.8000e+000  3.8121e-004
+ 1.9000e+000  3.8296e-004
+ 2.0000e+000  3.8471e-004
+ 2.1000e+000  3.8646e-004
+ 2.2000e+000  3.8821e-004
+ 2.3000e+000  3.8996e-004
+ 2.4000e+000  3.9171e-004
+ 2.5000e+000  3.9346e-004
+ 2.6000e+000  3.9520e-004
+ 2.7000e+000  3.9695e-004
+ 2.8000e+000  3.9870e-004
+ 2.9000e+000  4.0045e-004
+ 3.0000e+000  4.0220e-004
+ 3.1000e+000  4.0395e-004
+ 3.2000e+000  4.0570e-004
+ 3.3000e+000  4.0744e-004
+ 3.4000e+000  4.0919e-004
+ 3.5000e+000  4.1094e-004
+ 3.6000e+000  4.1269e-004
+ 3.7000e+000  4.1444e-004
+ 3.8000e+000  4.1619e-004
+ 3.9000e+000  4.1794e-004
+ 4.0000e+000  4.1969e-004
+ 4.1000e+000  4.2143e-004
+ 4.2000e+000  4.2318e-004
+ 4.3000e+000  4.2493e-004
+ 4.4000e+000  4.2668e-004
+ 4.5000e+000  4.2843e-004
+ 4.6000e+000  4.3018e-004
+ 4.7000e+000  4.3193e-004
+ 4.8000e+000  4.3368e-004
+ 4.9000e+000  4.3542e-004
+ 5.0000e+000  4.3717e-004
+*
+
+* Parsing                      0.00 seconds
+* DC Analysis                  0.09 seconds
+* Overhead                     1.64 seconds
+* -----------------------------------------
+* Total                        1.73 seconds
+
+* Simulation completed
+
+* End of T-Spice output file

@@ -1,0 +1,57 @@
+T-Spice - Tanner SPICE
+Version 13.00
+Standalone hardware lock
+Product Release ID: T-Spice Win32 13.00.20080321.01:01:33
+Copyright © 1993-2008 Tanner EDA
+
+	Opening output file "C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\NMOS_Inverter\NMOS_Inverter.out"
+	Parsing "C:\Documents and Settings\Dhiraj\Desktop\VLSI Designs\NMOS_Inverter\NMOS_Inverter.sp"
+	Reading library file "C:\Documents and Settings\Dhiraj\My Documents\Tanner EDA\Tanner Tools v13.0\Tanner_Libraries\Generic_025_Kit\Generic_025_SPICE_Models_Level1.lib"
+Loaded MOSLevel1 model library, SPICE Level 1 MOSFET revision 1.0
+
+Accuracy and Convergence options:
+numndset|dchold = 100
+
+Timestep and Integration options:
+ relq|relchgtol = 0.0005
+
+Model Evaluation options:
+           dcap = 2                    defnrb = 0 [sq]               defnrd = 0 [sq]
+         defnrs = 0 [sq]                 tnom = 25 [deg C]
+
+General options:
+           temp = 25 [deg C]          threads = 2
+
+Output options:
+          acout = 1                    ingold = 0
+
+
+
+ Device and node counts:
+            MOSFETs - 1                 MOSFET geometries - 1       
+               BJTs - 0                             JFETs - 0       
+            MESFETs - 0                            Diodes - 0       
+         Capacitors - 0                         Resistors - 1       
+          Inductors - 0                  Mutual inductors - 0       
+ Transmission lines - 0        Coupled transmission lines - 0       
+    Voltage sources - 2                   Current sources - 0       
+               VCVS - 0                              VCCS - 0       
+               CCVS - 0                              CCCS - 0       
+   V-control switch - 0                  I-control switch - 0       
+      Macro devices - 0        External C model instances - 0       
+        HDL devices - 0       
+        Subcircuits - 0              Subcircuit instances - 0       
+  Independent nodes - 1                    Boundary nodes - 3       
+        Total nodes - 4       
+
+
+
+Parsing                      0.01 seconds
+Setup                        0.02 seconds
+DC operating point           0.00 seconds
+Transient Analysis           0.02 seconds
+Overhead                     1.80 seconds
+-----------------------------------------
+Total                        1.84 seconds
+
+Simulation completed

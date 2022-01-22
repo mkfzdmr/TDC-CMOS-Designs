@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design 4_Input_NOR_Gate -cell 4_Input_NOR_Gate -type schematic -newwindow
+window move -left 154 -top 203 -width 803 -height 435 -undock -max 
+window fit -x0 -3262 -y0 -3249 -x1 3879 -y1 1333 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

@@ -1,0 +1,46 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\ring_oscillator2.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\130nm.md"
+
+Start of ring_oscillator2.sp
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : "..\..\..\..\..\Desktop\130tech\130nm.md" line 1 Model NMOS - Unknown model parameter "OPTACM" will be ignored
+Warning : "ring_oscillator2.sp" line 37 Device XCounter_1.XDFFC_1.MN1 - Acde = 0.3 is too small.
+Warning : "ring_oscillator2.sp" line 41 Device XCounter_1.XDFFC_1.MN11 - Acde = 0.3 is too small.
+Warning : "ring_oscillator2.sp" line 45 Device XCounter_1.XDFFC_1.MN15 - Acde = 0.3 is too small.
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     136
+    MOSFET geometries -      13
+      Voltage sources -       2
+   Subckt Definitions -       5
+     Subckt Instances -      13
+     Unique Instances -       4
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -     346
+       Boundary nodes -       3
+          Total nodes -     349
+*** 4 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\ring_oscillator2.tsim"
+
+Parsing                      0.13 seconds
+Setup                        0.19 seconds
+DC operating point           0.03 seconds
+Transient Analysis           1.76 seconds
+Overhead                     0.23 seconds
+-----------------------------------------
+Total                        2.35 seconds
+
+Simulation completed	with  4 Warnings

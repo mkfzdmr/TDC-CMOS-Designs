@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design NOT_Gate -cell NOT_Gate -type symbol -newwindow
+window move -left 132 -top 174 -width 803 -height 435 -undock -max 
+window fit -x0 -400 -y0 -260 -x1 724 -y1 460 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

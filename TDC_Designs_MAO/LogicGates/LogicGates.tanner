@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -cell Cell0 -design LogicGates -type schematic -context DFFC_1 -newwindow
+window move -left 0 -top 0 -width 1172 -height 571 -undock -normal 
+window fit -x0 -4185 -y0 -676 -x1 13855 -y1 7593 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

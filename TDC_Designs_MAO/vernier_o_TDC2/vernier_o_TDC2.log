@@ -1,0 +1,47 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_o_TDC2.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\45nm.md"
+
+Start of vernier_o_TDC2.sp
+Loaded BSIM4v45 model library, Berkeley BSIM4 v4.5.0
+
+General options:
+        threads = 4
+
+ Device and node counts:
+              MOSFETs -     429
+    MOSFET geometries -       6
+      Voltage sources -       3
+   Subckt Definitions -       6
+     Subckt Instances -      95
+     Unique Instances -       6
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -    1926
+       Boundary nodes -       4
+          Total nodes -    1930
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_o_TDC2.tsim"
+
+Power Results
+
+VPower from time 0 to 1e-008
+Average power consumed -> 2.588348e-003 watts
+Max power 2.882479e-002 at time 4.00095e-009 
+Min power 1.619101e-005 at time 3.26493e-009 
+
+
+Parsing                      0.02 seconds
+Setup                        0.11 seconds
+DC operating point           0.43 seconds
+Transient Analysis           2.64 seconds
+-----------------------------------------
+Total                        3.02 seconds
+
+Simulation completed

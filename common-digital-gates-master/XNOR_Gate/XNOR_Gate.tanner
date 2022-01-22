@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design XNOR_Gate -cell XNOR_Gate -type symbol -newwindow
+window move -left 110 -top 145 -width 771 -height 435 -undock -max 
+window fit -x0 -420 -y0 -230 -x1 723 -y1 530 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

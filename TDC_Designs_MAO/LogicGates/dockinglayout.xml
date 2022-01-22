@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<RegistyKey>
+		<Summary Panes="12" TopContainer="6" Client="10"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="Libraries" ID="3" DockingHolder="7" LastHolder="7"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Hierarchy" ID="6" DockingHolder="7" LastHolder="7"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Command" ID="1" DockingHolder="12" LastHolder="12"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="Properties" ID="2" DockingHolder="11" LastHolder="11"/>
+		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Find" ID="5" DockingHolder="11" LastHolder="11"/>
+		<Pane-6 Type="2" Horiz="1" Panes="2" Pane-1="7" Pane-2="8"/>
+		<Pane-7 Type="1" DockingCX="200" DockingCY="120" Panes="2" Selected="1" Pane-1="1" Pane-2="2"/>
+		<Pane-8 Type="2" DockingCX="1396" Panes="2" Pane-1="9" Pane-2="12"/>
+		<Pane-9 Type="2" DockingCY="613" Horiz="1" Panes="2" Pane-1="10" Pane-2="11"/>
+		<Pane-10 Type="4"/>
+		<Pane-11 Type="1" DockingCX="200" DockingCY="120" Panes="2" Selected="4" Pane-1="4" Pane-2="5"/>
+		<Pane-12 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="3" Pane-1="3"/>
+	</RegistyKey>
+</DockingPaneLayouts>

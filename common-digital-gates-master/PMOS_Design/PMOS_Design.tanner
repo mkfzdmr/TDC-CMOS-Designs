@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design PMOS_Design -cell PMOS_Design -type schematic -newwindow
+window move -left 132 -top 174 -width 677 -height 435 -undock -max 
+window fit -x0 -718 -y0 -193 -x1 4264 -y1 3491 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

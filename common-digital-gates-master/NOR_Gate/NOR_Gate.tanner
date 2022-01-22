@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design NOR_Gate -cell NOR_Gate -type symbol -newwindow
+window move -left 132 -top 174 -width 677 -height 435 -undock -max 
+window fit -x0 -420 -y0 -273 -x1 724 -y1 573 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

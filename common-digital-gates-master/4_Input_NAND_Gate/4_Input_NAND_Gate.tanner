@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design 4_Input_NAND_Gate -cell 4_Input_NAND_Gate -type symbol -newwindow
+window move -left 22 -top 29 -width 520 -height 306 -undock -max 
+window fit -x0 -420 -y0 -117 -x1 723 -y1 618 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

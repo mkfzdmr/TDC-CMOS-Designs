@@ -1,0 +1,44 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\DLL_TDC_deneme.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\130nm.md"
+
+Start of DLL_TDC_deneme.sp
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : "..\..\..\..\..\Desktop\130tech\130nm.md" line 1 Model NMOS - Unknown model parameter "OPTACM" will be ignored
+Warning : "DLL_TDC_deneme.sp" line 25 Device Xbuffer_1.MN1 - Acde = 0.3 is too small.
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     381
+    MOSFET geometries -       4
+      Voltage sources -       3
+   Subckt Definitions -       6
+     Subckt Instances -      83
+     Unique Instances -       6
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -     948
+       Boundary nodes -       4
+          Total nodes -     952
+*** 2 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\DLL_TDC_deneme.tsim"
+
+Parsing                      0.01 seconds
+Setup                        0.06 seconds
+DC operating point           0.05 seconds
+Transient Analysis           1.28 seconds
+Overhead                     0.27 seconds
+-----------------------------------------
+Total                        1.68 seconds
+
+Simulation completed	with  2 Warnings

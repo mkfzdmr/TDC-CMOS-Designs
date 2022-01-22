@@ -1,0 +1,192 @@
+# File: Generic_025.ext
+# For: Extract definition file
+# Technology: Generic 0.25 um Process
+# Technology Setup File and Test/Demo Suite: Generic_025.tdb
+# Copyright © 2002-2003 Tanner EDA
+# All Rights Reserved 
+#
+# This file will work only with L-EDIT Version 7 and greater.
+# ****************************************************************************
+
+connect(n well wire, Deep N Well Wire, n well wire)
+connect(n well wire, ndiff, ndiff)
+connect(P Well, pdiff, pdiff)
+connect(Substrate, pdiff, pdiff)
+connect(Substrate, ChipSubstrate, ChipSubstrate)
+connect(ndiff, Metal1, Active Contact)
+connect(pdiff, Metal1, Active Contact)
+connect(poly wire, Metal1, Poly Contact)
+connect(Metal1, Metal2, Via1)
+connect(Metal2, Metal3, Via2)
+connect(Metal3, Metal4, Via3)
+connect(Metal4, Metal4 - Pad, Metal4)
+connect(LPNP Emitter, pdiff, LPNP Emitter)
+connect(LPNP Collector, pdiff, LPNP Collector)
+
+# NMOS transistor with poly gate
+device = MOSFET(
+               RLAYER=ntran;  
+               Drain=ndiff, AREA, PERIMETER;
+               Gate=poly wire;   
+               Source=ndiff, AREA, PERIMETER;
+               Bulk=Substrate;
+               MODEL=NMOS;
+               )
+
+# PMOS transistor with poly gate
+device = MOSFET(
+               RLAYER=ptran;
+               Drain=pdiff, AREA, PERIMETER;
+               Gate=poly wire;
+               Source=pdiff, AREA, PERIMETER;
+               Bulk=n well wire;
+               MODEL=PMOS;
+               )
+
+# HV NMOS transistor with poly gate
+device = MOSFET(
+               RLAYER=ntran HV;  
+               Drain=ndiff, AREA, PERIMETER;
+               Gate=poly wire;   
+               Source=ndiff, AREA, PERIMETER;
+               Bulk=Substrate;
+               MODEL=NMOS_HV;
+               )
+
+# HV PMOS transistor with poly gate
+device = MOSFET(
+               RLAYER=ptran HV;
+               Drain=pdiff, AREA, PERIMETER;
+               Gate=poly wire;
+               Source=pdiff, AREA, PERIMETER;
+               Bulk=n well wire;
+               MODEL=PMOS_HV;
+               )
+
+# NMOS transistor with Deep N Well Isolation
+device = SUBCKT(
+               RLAYER=ntran Deep, LW;  
+               Drain=ndiff, AREA, PERIMETER, DEVICEWIDTH;
+               Gate=poly wire;   
+               Source=ndiff, AREA, PERIMETER, DEVICEWIDTH;
+               Bulk=P Well;
+               IsolationBulk=Deep N Well Wire;
+               MODEL=NMOS_DEEP;
+               )
+
+# PNP transistor
+device = BJT(
+            RLAYER=LPNP ID;
+            Collector=LPNP Collector;
+            Base=n well wire ;
+            Emitter=LPNP Emitter, AREA;
+            Substrate=ChipSubstrate;
+            MODEL=PNP;
+            NominalArea=1.0;
+            )
+
+# NMOS capacitor
+device = CAP(
+            RLAYER=NMOS Capacitor;
+            Plus=poly wire;
+            Minus=ndiff;
+            MODEL=;
+            )
+
+# PMOS capacitor
+device = CAP(
+            RLAYER=PMOS Capacitor;
+            Plus=poly wire;
+            Minus=pdiff;
+            MODEL=;
+            )
+
+# Poly resistor
+device = RES(
+            RLAYER=Poly Resistor;
+            Plus=poly wire;
+            Minus=poly wire;
+            MODEL=;
+            )
+
+# Poly SB resistor
+device = RES(
+            RLAYER=Poly Silicide Block Resistor;
+            Plus=poly wire;
+            Minus=poly wire;
+            MODEL=;
+            )
+
+# N Diffusion resistor
+device = RES(
+            RLAYER=NDiff Resistor;
+            Plus=ndiff;
+            Minus=ndiff;
+            MODEL=;
+            )
+
+# P Diffusion resistor
+device = RES(
+            RLAYER=PDiff Resistor;
+            Plus=pdiff;
+            Minus=pdiff;
+            MODEL=;
+            )
+
+# N Diffusion SB resistor
+device = RES(
+            RLAYER=SB NDiff Resistor;
+            Plus=ndiff;
+            Minus=ndiff;
+            MODEL=;
+            )
+
+# P Diffusion SB resistor
+device = RES(
+            RLAYER=SB PDiff Resistor;
+            Plus=pdiff;
+            Minus=pdiff;
+            MODEL=;
+            )
+
+# N Well resistor
+device = RES(
+            RLAYER=NWell Resistor;
+            Plus=n well wire; 
+            Minus=n well wire;
+            MODEL=;
+            )
+
+# Bonding Area Capacitance
+device = CAP(
+             RLAYER=Metal4 - Pad;
+             Plus=Metal4;
+             Minus=Substrate;
+             MODEL=;
+            )
+
+# Diodes
+device = DIODE(
+               RLAYER=PDiff Diode, AREA;
+               Plus=pdiff;
+               Minus=n well wire;
+               MODEL=PDIO;
+               NominalArea=1.0;
+               )IGNORE_SHORTS
+
+device = DIODE(
+               RLAYER=NDiff Diode, AREA;
+               Plus=Substrate;
+               Minus=ndiff;
+               MODEL=NDIO;
+               NominalArea=1.0;
+               )IGNORE_SHORTS
+
+# Lateral Diode
+device = DIODE(
+               RLAYER=Lateral Diode, AREA;
+               Plus=pdiff;
+               Minus=ndiff;
+               MODEL=D_lateral;
+               NominalArea=1.0;
+               )IGNORE_SHORTS

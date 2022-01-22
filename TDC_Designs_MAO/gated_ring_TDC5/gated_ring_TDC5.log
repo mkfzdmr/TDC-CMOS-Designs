@@ -1,0 +1,52 @@
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\gated_ring_TDC5.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Including "C:\Users\makif\Desktop\130tech\45nm.md"
+
+Start of gated_ring_TDC5.sp
+Loaded BSIM4v45 model library, Berkeley BSIM4 v4.5.0
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     377
+    MOSFET geometries -       5
+      Voltage sources -       3
+   Subckt Definitions -       6
+     Subckt Instances -      84
+     Unique Instances -       7
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -    1713
+       Boundary nodes -       4
+          Total nodes -    1717
+
+	Opening simulation database "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\gated_ring_TDC5.tsim"
+Conventional DC operating point computation failed
+Final gmin value = 1e-006, dcstep = 100
+Gmin stepping failed
+Source stepping succeeded
+
+Power Results
+
+VPower from time 0 to 1e-008
+Average power consumed -> 1.078194e-002 watts
+Max power 4.675143e-002 at time 2.01e-009 
+Min power 3.563480e-003 at time 4.2125e-009 
+
+
+Parsing                      0.10 seconds
+Setup                        0.17 seconds
+DC operating point           7.96 seconds
+Transient Analysis          19.34 seconds
+Output                       0.04 seconds
+-----------------------------------------
+Total                       19.83 seconds
+
+Simulation completed

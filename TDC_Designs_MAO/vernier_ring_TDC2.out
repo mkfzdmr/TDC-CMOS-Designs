@@ -1,0 +1,68 @@
+* T-Spice 13.00 Simulation	Tue May 14 23:15:38 2019	C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_ring_TDC2.sp
+* Command line: tspice -o "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_ring_TDC2.out" "C:\Users\makif\Google Drive\TEZ ÇALIÞMAM\çizim\Counter_TDC\Counter_TDC\vernier_ring_TDC2.sp" 
+* T-Spice Win32 13.00.20080321.01:01:33
+
+*SEDIT: Alter blocks = 0
+
+* Accuracy and Convergence options:
+* numndset|dchold = 100
+* 
+* Timestep and Integration options:
+*  relq|relchgtol = 0.0005
+* 
+* Model Evaluation options:
+*            dcap = 2                    defnrb = 0 [sq]               defnrd = 0 [sq]
+*          defnrs = 0 [sq]                 tnom = 25 [deg C]
+* 
+* General options:
+*            temp = 25 [deg C]          threads = 8
+* 
+* Output options:
+*           acout = 1                    ingold = 0
+* 
+
+
+*  Device and node counts:
+*             MOSFETs - 345               MOSFET geometries - 6       
+*                BJTs - 0                             JFETs - 0       
+*             MESFETs - 0                            Diodes - 0       
+*          Capacitors - 0                         Resistors - 0       
+*           Inductors - 0                  Mutual inductors - 0       
+*  Transmission lines - 0        Coupled transmission lines - 0       
+*     Voltage sources - 3                   Current sources - 0       
+*                VCVS - 0                              VCCS - 0       
+*                CCVS - 0                              CCCS - 0       
+*    V-control switch - 0                  I-control switch - 0       
+*       Macro devices - 0        External C model instances - 0       
+*         HDL devices - 0       
+*         Subcircuits - 0              Subcircuit instances - 85      
+*   Independent nodes - 1548                 Boundary nodes - 4       
+*         Total nodes - 1552    
+
+
+*SEDIT: Alter=0
+*SEDIT: Analysis types DCOP 0 ACMODEL 0 AC 0 TRANSIENT 0 TRANSFER 0 NOISE 0 
+
+* BEGIN NON-GRAPHICAL DATA
+
+Power Results
+VPower from time 0 to 1e-008
+Average power consumed -> 5.104486e-003 watts
+Max power 2.201106e-002 at time 3.91605e-009 
+Min power 9.920980e-004 at time 3.001e-009 
+
+
+* END NON-GRAPHICAL DATA
+*
+
+* Parsing                      0.01 seconds
+* Setup                        0.07 seconds
+* DC operating point           0.35 seconds
+* Transient Analysis           1.98 seconds
+* Overhead                     0.85 seconds
+* -----------------------------------------
+* Total                        3.25 seconds
+
+* Simulation completed
+
+* End of T-Spice output file

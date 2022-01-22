@@ -1,0 +1,3 @@
+﻿workspace loadfrom -path .
+source open.design -relativeto user
+source open.design -relativeto design
